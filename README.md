@@ -4,8 +4,8 @@
 Here you'll find descriptions of the projects I've worked on, with links to those available on [my Github page](https://github.com/sofija-13).
 
 <a href="http://sofija-13.github.io#projects">Projects</a><br>
-<a href="http://sofija-13.github.io#about-me">About Me</a><br>
-<a href="http://sofija-13.github.io#where-to-find-me">Where to find me</a><br>
+<a href="http://sofija-13.github.io#-about-me">About Me</a><br>
+<a href="http://sofija-13.github.io#-where-to-find-me">Where to find me</a><br>
 
 
 # Projects
@@ -22,7 +22,7 @@ Distributed multi-resource allocation
 <!-- Reproduction de résultats expérimentaux d’un algorithme distribué de verouillage de ressources -->
 Reproducing experimental results from a research paper on the generalization of mutual exclusion <br>
 Implementing a distributed algorithm and analyzing its performances
-##### <font color="green"><i>Tools & languages : Java, Distributed Protocol Library (<a href=https://gitlab.lip6.fr/jlejeune/diplab>DipLab</a>)</i></font> 
+##### <font color="green"><i>Tools & languages : Java, Distributed Protocol Library <a href=https://gitlab.lip6.fr/jlejeune/diplab>DipLab</a></i></font> 
 
 Peer-to-peer system 
 ---
@@ -83,7 +83,7 @@ Programming a prey/predator system
 
 ---
 
-# 👩🏽‍💻 About Me
+## 👩🏽‍💻 About Me
 
 👩🏽‍🎓 Master's student at Sorbonne University, Paris, specializing in distributed and embedded systems <br>
 
@@ -114,7 +114,7 @@ Programming a prey/predator system
 
 ---
 
-# 📨 Where to find me
+## 📨 Where to find me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sofija-granet) 
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sofija.granet@gmail.com) 
 [![GitHub](https://img.shields.io/badge/github-black?logo=github)](https://github.com/sofija-13) 
