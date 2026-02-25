@@ -22,7 +22,8 @@ Distributed multi-resource allocation
 <!-- Reproduction de résultats expérimentaux d’un algorithme distribué de verouillage de ressources -->
 Reproducing experimental results from a research paper on the generalization of mutual exclusion <br>
 Implementing a distributed algorithm and analyzing its performances
-##### <font color="green"><i>Tools & languages : Java, Distributed Protocol Library <a href=https://gitlab.lip6.fr/jlejeune/diplab>DipLab</a></i></font> 
+##### <font color="green"><i>Tools & languages : Java, Distributed Protocol Library</i></font> 
+<!-- <a href=https://gitlab.lip6.fr/jlejeune/diplab>DipLab</a> -->
 
 Peer-to-peer system 
 ---
