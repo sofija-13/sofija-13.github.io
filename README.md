@@ -34,7 +34,7 @@ Distributed algorithms
 
 Compressing and decompressing files with Huffman's algorithm 
 ---
-[![Huffman-Dynamique](https://img.shields.io/badge/github-Huffman_Dynamique-red?logo=github)](https://github.com/sofija-13)
+[![Huffman-Dynamique](https://img.shields.io/badge/github-Huffman_Dynamique-red?logo=github)](https://github.com/sofija-13/Huffman-Dynamique)
 
 Algorithms and complexity analysis, programming 
 
@@ -59,7 +59,7 @@ Implementing a greedy algorithm and dynamic programming
 
 Simulating a natural environment in a GUI
 ---
-[![Poule-Renard-Vipère](https://img.shields.io/badge/github-Poule_Renard_Vipère-vert?logo=github)](https://github.com/sofija-13)
+[![Poule-Renard-Vipère](https://img.shields.io/badge/github-Poule_Renard_Vipère-vert?logo=github)](https://github.com/sofija-13/poulerenardvipere)
 
 Simulation of epidemics and prey/predator dynamics, wildfire propagation modeling 
 ##### <font color="green"><i>Tools & languages : Python, Git</i></font>
