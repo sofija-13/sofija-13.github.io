@@ -25,10 +25,10 @@ Implementing a distributed algorithm and analyzing its performances
 ##### <font color="green"><i>Tools & languages : Java, Distributed Protocol Library</i></font> 
 <!-- <a href=https://gitlab.lip6.fr/jlejeune/diplab>DipLab</a> -->
 
-Peer-to-peer system 
+<!--Peer-to-peer system 
 ---
 Distributed algorithms 
-##### <font color="green"><i>Tools & languages : C, Promela</i></font>
+##### <font color="green"><i>Tools & languages : C, MPI</i></font> -->
 
 ## <font color="red">2025</font>
 
