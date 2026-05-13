@@ -11,9 +11,9 @@ Here you'll find descriptions of the projects I've worked on, with links to thos
 # Projects
 ## <font color="red">2026</font>
 
-Adding a feature to a homemade file system 
+Adding a feature to a homemade file system, for Linux 6.5.7
 ---
-
+<!-- [![bref](https://img.shields.io/badge/github-bref-red?logo=github)](https://github.com/sofija-13/bref) -->
 Programming in the Linux kernel
 ##### <font color="green"><i>Tools & languages : C</i></font>
 
