@@ -7,21 +7,40 @@ Here you'll find descriptions of the projects I've worked on, with links to thos
 <a href="http://sofija-13.github.io#-about-me">About Me</a><br>
 <a href="http://sofija-13.github.io#-where-to-find-me">Where to find me</a><br>
 
-
 # Projects
 ## <font color="red">2026</font>
 
-Adding a feature to a homemade file system, for Linux 6.5.7
+egrep clone supporting simplified ERE 
 ---
 <!-- [![bref](https://img.shields.io/badge/github-bref-red?logo=github)](https://github.com/sofija-13/bref) -->
-Programming in the Linux kernel
+
+Regex parsing, automaton construction, determinization and DFA minimization, KMP algorithm <br>
+Performance analysis written in a rigorous report, in English
+
+##### <font color="green"><i>Tools & languages : Java, python</i></font>
+
+Book search engine web application 
+---
+<!-- [![bref](https://img.shields.io/badge/github-bref-red?logo=github)](https://github.com/sofija-13/bref) -->
+
+Search by RegEx, indexation, Jaccard graph, centrality ranking (database of around 1700 books)
+
+<!-- ##### <font color="green"><i>Tools & languages : Java, python</i></font> -->
+
+Extended a homemade file system, for Linux 6.5.7
+---
+<!-- [![bref](https://img.shields.io/badge/github-bref-red?logo=github)](https://github.com/sofija-13/bref) -->
+
+Programming in the Linux kernel <br>
+Handling larger files using an extent-based allocation system and block reservation for concurrent access
+
 ##### <font color="green"><i>Tools & languages : C</i></font>
 
 Distributed multi-resource allocation
 ---
 <!-- Reproduction de résultats expérimentaux d’un algorithme distribué de verouillage de ressources -->
 Reproducing experimental results from a research paper on the generalization of mutual exclusion <br>
-Implementing a distributed algorithm and analyzing its performances
+Implementing a distributed algorithm and analyzing its performances, comparison with Bouabdallah-Laforest algorithm
 ##### <font color="green"><i>Tools & languages : Java, Distributed Protocol Library</i></font> 
 <!-- <a href=https://gitlab.lip6.fr/jlejeune/diplab>DipLab</a> -->
 
@@ -34,18 +53,20 @@ Distributed algorithms
 
 Compressing and decompressing files with Huffman's algorithm 
 ---
+
 [![Huffman-Dynamique](https://img.shields.io/badge/github-Huffman_Dynamique-red?logo=github)](https://github.com/sofija-13/Huffman-Dynamique)
 
-Algorithms and complexity analysis, programming 
+Reached 45-62% compression rate
 
 ##### <font color="green"><i>Tools & languages : Python, Git</i></font>
 
 Implementing a simple Unix-like operating system
 ---
-Bootloader, scheduler, message passing mechanism, process management, virtual memory mechanism, and file system
+Implemented bootloader, scheduler, message passing mechanism, process management, virtual memory mechanism, and file system
+
 
 During my Erasmus exchange semester at the University of Oslo (UiO), for a class called [Operating Systems](https://www.uio.no/studier/emner/matnat/ifi/IN3000/index-eng.html) <br>
-##### <font color="green"><i>Tools & languages : Assembly, C, Git</i></font>
+##### <font color="green"><i>Tools & languages : x86 Assembly, C, Git</i></font>
 
 ## <font color="red">2024</font>
 
@@ -85,11 +106,12 @@ Programming a prey/predator system
 ---
 
 ## 👩🏽‍💻 About Me
+👩🏽‍🎓 Second-year Master's student in Computer Science (Distributed Systems and Applications) at Sorbonne Université, Paris.
 
-👩🏽‍🎓 Master's student at Sorbonne University, Paris, specializing in distributed and embedded systems <br>
+🕵🏽‍♀️ Looking for a 6-month internship starting March 2027 in distributed systems, cloud infrastructure or software engineering (mostly backend).
+Hands-on experience, from Linux kernel modules to containerized data pipelines.
 
-🕵🏽‍♀️ Looking for a **summer 2026 internship** to acquire hands-on experience <!--in software engineering-->
-
+✈️ International background, speaks English, French and Lithuanian. Open to relocation.
 
 ## 💻 Skills
 
@@ -102,6 +124,14 @@ Programming a prey/predator system
 ![OCaml](https://img.shields.io/badge/OCaml-%23E98407.svg?style=for-the-badge&logo=ocaml&logoColor=white) 
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) 
 <!-- ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) -->
+
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) 
+![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) 
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka) 
+![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) 
+![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) 
+![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) 
+![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) 
 
 
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
