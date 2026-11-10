@@ -1,0 +1,350 @@
+:root {
+    --background: #fff0ed;
+    --surface: #f2d4d4;
+    --text: #241313;
+    --muted: #765b66;
+    --border: #b93232;
+    --accent: #782502;
+    --accent-soft: #f3f4eb;
+    --green: #122c25;
+    --shadow: 0 1px 3px rgba(20, 30, 45, .06), 0 4px 14px rgba(20, 30, 45, .04);
+}
+
+/* TODO mode sombre */
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0f141a;
+        --surface: #161d25;
+        --text: #e6ebf1;
+        --muted: #98a4b3;
+        --border: #263140;
+        --accent: #4fb3d9;
+        --accent-soft: #15303d;
+        --green: #3fd1a5;
+        --shadow: none;
+    }
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrap {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ---------- Header ---------- */
+header {
+    padding: 64px 0 40px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+}
+
+header h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -.02em;
+}
+
+header .role {
+    color: var(--muted);
+    font-size: 1.1rem;
+    margin-top: 6px;
+}
+
+header .intro {
+    margin-top: 18px;
+    max-width: 640px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--background);
+    color: var(--text);
+    font-weight: 500;
+    font-size: .92rem;
+}
+
+.btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.btn svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+}
+
+/* ---------- Nav ---------- */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: color-mix(in srgb, var(--surface) 88%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+}
+
+nav .wrap {
+    display: flex;
+    gap: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    overflow-x: auto;
+}
+
+nav a {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: .95rem;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.language-switch {
+    display: inline-flex;
+    flex-shrink: 0;
+    gap: 2px;
+    margin-left: auto;
+    padding: 3px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--background);
+}
+
+nav .language-switch a {
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: var(--muted);
+    font-family: "JetBrains Mono", monospace;
+    font-size: .78rem;
+}
+
+nav .language-switch a.active {
+    background: var(--accent);
+    color: var(--surface);
+}
+
+nav .language-switch a:hover {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+nav .language-switch a.active:hover {
+    color: var(--surface);
+}
+
+/* ---------- Sections ---------- */
+section {
+    padding: 48px 0 8px;
+    scroll-margin-top: 50px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.conteneur {
+    display: flex;
+    /* Active le mode Flexbox sur le parent */
+    gap: 15px;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 0;
+    /* Ajoute un espace entre les deux blocs (optionnel) */
+}
+
+.bloc {
+    flex: 1;
+    /* Partage l'espace de manière égale (optionnel) */
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+}
+
+.year {
+    font-family: "JetBrains Mono", monospace;
+    color: var(--accent);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 28px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.year::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+}
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 14px;
+    box-shadow: var(--shadow);
+}
+
+.card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.card h3 {
+    font-size: 1.08rem;
+    font-weight: 600;
+}
+
+.card p {
+    color: var(--muted);
+    margin-top: 8px;
+    font-size: .95rem;
+}
+
+.card ul {
+    color: var(--muted);
+    margin: 8px 0 0 18px;
+    font-size: .95rem;
+}
+
+.repo {
+    font-size: .82rem;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    color: var(--text);
+    white-space: nowrap;
+}
+
+.repo:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 14px;
+}
+
+.tag {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .78rem;
+    padding: 3px 9px;
+    border-radius: 6px;
+    background: #ffffff;
+    /* background: var(--surface); */
+    color: var(--accent);
+}
+
+/* ---------- About ---------- */
+.about-list {
+    list-style: none;
+    display: grid;
+    gap: 12px;
+}
+
+.about-list li {
+    display: flex;
+    gap: 12px;
+}
+
+.about-list .ico {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* ---------- Skills ---------- */
+.skills {
+    display: grid;
+    gap: 16px;
+}
+
+.skill-group h3 {
+    font-size: .85rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--muted);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    padding: 40px 0 56px;
+    color: var(--muted);
+    font-size: .88rem;
+}
+
+footer .links {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+@media (max-width: 560px) {
+    header {
+        padding: 44px 0 32px;
+    }
+
+    header h1 {
+        font-size: 1.9rem;
+    }
+
+    .card {
+        padding: 16px 18px;
+    }
+}
